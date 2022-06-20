@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    border: 1px solid #000000;
+    margin: 0;
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.item{
+    background-color: #090978;
+    margin: 5px;
+    text-align: center;
+    color: #c99aa1;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
