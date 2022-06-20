@@ -1,0 +1,51 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 350px;
+    border: 1px solid #000000;
+    display: flex;
+}
+
+.column{
+    flex-direction: column
+}
+
+.item{
+    background-color: #453092;
+    margin: 5px;
+    color: #ffffff;
+    text-align: center;
+    flex: 1;
+}
+
+.center{
+    align-items: center;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.central{
+    height: 600px;
+    justify-content: center;
+}
+
+.central .item{
+    flex: 0;
+    padding: 20px;
+}
