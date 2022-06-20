@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    height: 150px;
+    border: 1px solid #000000;
+    max-width: 300px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    line-height: 75px;
+}
+
+.no-wrap{
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
