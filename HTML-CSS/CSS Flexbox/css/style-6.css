@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 1500px;
+    max-width: 300px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: #000000;
+    padding: 0 5px;
+    flex: 1;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+
+.center{
+    align-content: center;
+}
+
+.flex-start{
+    align-content: flex-start;
+}
+
+.flex-end{
+    align-content: flex-end;
+}
+
+.stretch{
+    align-content: stretch;
+}
+
+.space-between{
+    align-content: space-between;
+}
+
+.space-around{
+    align-content: space-around;
+}
